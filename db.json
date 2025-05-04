@@ -124,7 +124,28 @@
       },
       "createdAt": "2024-03-14T20:15:00Z",
       "isMissing": true
-    }, {
+    },  {
+      "id": "missing3",
+      "userId": "user7",
+      "petName": "몽이",
+      "refSpecies": 1,
+      "subSpecies": 5,
+      "age": 3,
+      "isNeuter": false,
+      "petGender": "f",
+      "description": "흰색 말티즈, 앞니 하나 빠짐. 분홍색 하네스 착용",
+      "imageUrl": "https://images.unsplash.com/photo-1508532566027-b2032cd8a715",
+      "lostDate": "2024-03-13",
+      "lostTime": "16:20",
+      "lostLocation": {
+        "road_address": "경기도 성남시 분당구 정자일로 239",
+        "number_address": "경기 성남시 분당구 정자동 178-1",
+        "lat": 37.359907,
+        "lon": 127.105743
+      },
+      "createdAt": "2024-03-13T16:45:00Z",
+      "isMissing": true
+    },{
       "id": "missing4",
       "userId": "user1",
       "petName": "루이",
@@ -206,13 +227,13 @@
         "lng": 126.976888
       },
       "createdAt": "2024-03-19T15:45:00Z",
-      "userId": "user4",
+      "userId": "user1",
       "missingId": null
     },
     {
       "id": "report2",
       "refSpecies": 2,
-      "petId": "missing3",
+      "petId": "missing2",
       "description": "고양이를 봤어요. 목줄 O",
       "imageUrl": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
       "sightedAt": "2024-03-19T12:15:00Z",
@@ -223,7 +244,7 @@
         "lng": 127.112407
       },
       "createdAt": "2024-03-19T12:30:00Z",
-      "userId": "user4",
+      "userId": "user1",
       "missingId": "missing2"
     },
     {
@@ -240,12 +261,13 @@
         "lng": 126.976888
       },
       "createdAt": "2024-03-19T10:00:00Z",
-      "userId": "user2"
+      "userId": "user1"
     },
     {
       "id": "report4",
       "refSpecies": 2,
       "subSpecies": 11,
+       "petId": "missing4",
       "description": "고양이를 봤어요. 목줄 O",
       "imageUrl": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d",
       "sightedAt": "2024-03-18T16:20:00Z",
@@ -297,9 +319,9 @@
   "comments": [
     {
       "commentId": "1",
-      "postId": 0,
+      "postId": "missing1",
       "postType": "missing",
-      "userId": "user123",
+      "userId": "user1",
       "userName": "홍길동",
       "content": "이 강아지를 봤어요!",
       "timestamp": "2025-04-30T12:00:00Z",
@@ -307,9 +329,9 @@
     },
     {
       "commentId": "2",
-      "postId": 0,
+      "postId": "mssing2",
       "postType": "report",
-      "userId": "user456",
+      "userId": "user1",
       "userName": "김철수",
       "content": "어디서 봤는지 알려주세요!",
       "timestamp": "2025-04-30T12:05:00Z",
