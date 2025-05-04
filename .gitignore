@@ -1,0 +1,21 @@
+# Node.js 관련
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경설정 파일
+.env
+
+# 에디터/IDE 관련
+.vscode/
+.idea/
+.DS_Store
+
+# 운영 환경용 폴더
+.vercel/
+.vercel.json
+
+# OS별 임시 파일
+*.swp
+Thumbs.db
